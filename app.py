@@ -64,7 +64,7 @@ st.title("Cover Work Sheet Auto-Filler")
 
 col1, col2 = st.columns(2)
 with col1:
-    teacher = st.text_input("Teacher Initials / Name", value="SH")
+    teacher = st.text_input("Teacher Initials / Name", value="")
 with col2:
     cover_date = st.date_input("Date", value=date.today())
 
