@@ -9,7 +9,7 @@ st.set_page_config(page_title="Cover Sheet Generator", page_icon="📝", layout=
 # Collapsible guide at the top of the UI
 with st.expander("▶️ Watch: How to Copy from Arbor & Generate a Cover Sheet", expanded=False):
     try:
-        with open("tutorial.mp4", "rb") as video_file:
+        with open("Cover Form Filler inner.mp4", "rb") as video_file:
             video_bytes = video_file.read()
         st.video(video_bytes)
     except FileNotFoundError:
