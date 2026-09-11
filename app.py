@@ -72,7 +72,7 @@ with col2:
 only_cover = st.checkbox("Only include [Cover Arranged]", value=False)
 
 raw_paste = st.text_area(
-    "Paste Calendar Data Here",
+    "Paste Calendar Data Here (From Arbor DAY view)",
     height=240,
     placeholder="09:55 - 10:55 | Location: S8\nScience: Year 8: 8S/Sc2\n..."
 )
